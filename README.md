@@ -13,6 +13,7 @@ http://www.apachefriends.org/en/xampp-windows.html
 En el mismo link aparece la descripción para la instalación del mismo.
 
 Luego de instalar XAMPP debes seguir los siguientes pasos:
+
 1.	Dirígete a la ruta donde se encuentra el archivo “actividad_4.rar” y descomprímelo.
 2.	Mueve la carpeta “actividad_4” con el proyecto a la siguiente ruta: C:\xampp\htdocs; o a la ruta de instalación que le hayas dado a XAMPP.
 3.	Abre el programa XAMPP y ejecuta los modulos APACHE y MySQL presionando “Start” en “Actions”.
@@ -32,6 +33,7 @@ http://www.apachefriends.org/es/xampp-linux.html
 En el mismo link aparece la descripción para la instalación del mismo. 
 
 Luego de instalar XAMPP debes seguir los siguientes pasos:
+
 1.	Dirígete a la ruta donde se encuentra el archivo “actividad_4.rar” y descomprímelo.
 2.	Mueve la carpeta “actividad_4” con el proyecto a la siguiente ruta: C:\xampp\htdocs; o a la ruta de instalación que le hayas dado a XAMPP.
 3.	Abre el programa XAMPP y ejecuta los modulos APACHE y MySQL presionando “Start” en “Actions”.
@@ -51,6 +53,7 @@ http://www.apachefriends.org/en/xampp-macosx.html
 En el mismo link aparece la descripción para la instalación del mismo.
 
 Luego de instalar XAMPP debes seguir los siguientes pasos:
+
 1.	Dirígete a la ruta donde se encuentra el archivo “actividad_4.rar” y descomprímelo.
 2.	Mueve la carpeta “actividad_4” con el proyecto a la siguiente ruta: C:\xampp\htdocs; o a la ruta de instalación que le hayas dado a XAMPP.
 3.	Abre el programa XAMPP y ejecuta los modulos APACHE y MySQL presionando “Start” en “Actions”.
@@ -70,6 +73,7 @@ http://www.apachefriends.org/en/xampp-solaris.html
 En el mismo link aparece la descripción para la instalación del mismo.
 
 Luego de instalar XAMPP debes seguir los siguientes pasos:
+
 1.	Dirígete a la ruta donde se encuentra el archivo “actividad_4.rar” y descomprímelo.
 2.	Mueve la carpeta “actividad_4” con el proyecto a la siguiente ruta: C:\xampp\htdocs; o a la ruta de instalación que le hayas dado a XAMPP.
 3.	Abre el programa XAMPP y ejecuta los modulos APACHE y MySQL presionando “Start” en “Actions”.
