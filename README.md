@@ -1,6 +1,7 @@
 tarea4
 ======
-ARCHIVO LEEME REPOSITORIO DE DOCUMENTOS
+ARCHIVO LEEME REPOSITORIO DE DOCUMENTOS.
+
 Gracias por utilizar nuestro software "REPOSITORIO DE DOCUMENTOS".
 
 Instalación.
