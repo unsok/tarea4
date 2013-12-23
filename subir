@@ -1,0 +1,35 @@
+<?php
+mysql_connect('localhost','root','')or die ('Ha fallado la conexi&oacute;n: '.mysql_error());
+mysql_select_db('mydb')or die ('Error al seleccionar la Base de Datos: '.mysql_error());
+
+if (isset($_POST["numero"])) {
+    $numero = $_POST["numero"];
+    $io= $_POST["origen"];
+    $tipo = $_POST["tipo"];
+    $destino = $_POST["destino"];
+	$fechaor = $_POST["fechaorigen"];
+	$fechares = $_POST["fecharespuesta"];
+	$emisario = $_POST["emisario"];
+	$descripcion = $_POST["descripcion"];
+    if($numero==NULL|$io==NULL|$tipo==NULL|$destino==NULL|$fechaor==NULL|$emisario==NULL|$descripcion==NULL) {
+        echo "<script>alert('Existen Campos Requeridos que se Encuentran vacios');</script>";
+		echo "<script> document.location.href='pagina3.php';</script>";
+        
+    }else{
+           $result= mysql_query("SELECT numeroarchivo FROM archivo WHERE numeroarchivo='$numero'") or die(mysql_error());
+		   if(mysql_num_rows($result)==0){
+                $query = 'INSERT INTO archivo (numeroarchivo,entradasalida, tipo, destinoorigen,fechaorigen, fecharecepcion, fecha, emisario)
+                VALUES (\''.$numero.'\',\''.$io.'\',\''.$tipo.'\',\''.$destino.'\', \''.$fechaor.'\',\''.$fechares.'\',\''.date("Y-m-d").'\', \''.$emisario.'\')';
+               
+                mysql_query($query) or die(mysql_error());
+                echo "<script>alert('El Archivo ha sido registrado de manera satisfactoria.');</script>";
+				echo "<meta http-equiv='Refresh' content='2;url=index.php'>";
+				
+			}else{
+					echo "<script>alert('El numero ya esta en uso');</script>";
+					
+			}
+}
+}
+
+?>
